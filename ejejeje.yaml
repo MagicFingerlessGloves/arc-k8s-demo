@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: partyplatypus
+spec:
+  containers:
+  - name: silly-container
+    image: nginx
